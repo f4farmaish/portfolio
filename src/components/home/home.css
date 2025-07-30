@@ -1,0 +1,48 @@
+.container
+{
+    background-color: black;
+   
+
+}
+
+.theme
+{
+    display: block;
+    width: 800px;
+          animation: animate 1s ease-out forwards;
+
+       
+}
+.text_container
+{ 
+     border:none;
+    border-radius: 50%;
+    margin-top: 50px;
+          animation: animate 1s ease-out forwards;
+
+}
+button
+{
+    cursor: pointer;
+}
+button:hover{
+    background-color: aliceblue;
+   color: rgb(33, 33, 191);
+
+}
+
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+
