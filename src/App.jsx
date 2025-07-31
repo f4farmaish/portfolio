@@ -6,8 +6,9 @@ import { Notfound } from "./components/pagenotfound/notfound"
 import { Navbar } from "./components/navbar/navabar"
 import NotFoundPage from "./components/not found page/notfound"
 import { Footer } from "./components/footer/footer"
-import { Contact } from "./components/contact/contact"
+import { Contact } from "./components/contact/contact.jsx"
 import AboutMe from "./components/about/about"
+import Projects from "./components/projects/project"
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
 
           <Route index element={<Home />} />
                     <Route path="/about"  element={<AboutMe/>}/>
+                                        <Route path="/projects"  element={<Projects/>}/>
+
 
           <Route path="/contact"  element={<Contact/>}/>
           <Route path="*" element={<NotFoundPage />} />
